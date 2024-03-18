@@ -2,6 +2,7 @@
 class db{
     var $con;
 
+    
     function __construct()
     {
         $dsn = 'mysql:host=localhost;dbname=demo';
